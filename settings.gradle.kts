@@ -22,6 +22,6 @@ listOf(
 
 rootProject.name = "geo-api"
 
-includeBuild("build-logic-geo")
+includeBuild("build-logic-geo-api")
 
 includeSubs("geo", ".", "coordinates", "languages", "countries", "addresses")
