@@ -21,6 +21,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 api(kotlinx.serialization.core)
+                api(projects.geoCountries)
                 api(libs.kollections.interoperable)
             }
         }
