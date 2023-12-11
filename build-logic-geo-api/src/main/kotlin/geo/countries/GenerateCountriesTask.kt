@@ -41,7 +41,7 @@ open class GenerateCountriesTask : DefaultTask() {
             
             import kash.Currency
             import kash.Currency.*
-            import kotlin.js.JsExport
+            import kotlinx.JsExport
             import kotlinx.serialization.Serializable
             
             @JsExport

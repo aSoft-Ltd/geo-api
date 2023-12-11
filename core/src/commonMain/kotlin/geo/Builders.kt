@@ -4,7 +4,7 @@ package geo
 
 import geo.internal.LatLngAltImpl
 import geo.internal.LatLngImpl
-import kotlin.js.JsExport
+import kotlinx.JsExport
 import kotlin.js.JsName
 
 @JsName("latLng")

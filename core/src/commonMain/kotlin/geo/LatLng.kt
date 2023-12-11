@@ -2,7 +2,7 @@ package geo
 
 import geo.serializers.LatLngSerializer
 import kotlinx.serialization.Serializable
-import kotlin.js.JsExport
+import kotlinx.JsExport
 
 @JsExport
 @Serializable(with = LatLngSerializer::class)

@@ -1,6 +1,6 @@
 package geo
 
-import kotlin.js.JsExport
+import kotlinx.JsExport
 
 @JsExport
 interface LatLngAlt : LatLng {
