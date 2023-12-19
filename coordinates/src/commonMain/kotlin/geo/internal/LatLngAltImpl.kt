@@ -1,7 +1,9 @@
 package geo.internal
 
 import geo.LatLngAlt
+import kotlinx.serialization.Serializable
 
+@Serializable
 internal data class LatLngAltImpl(
     override val lat: Double,
     override val lng: Double,

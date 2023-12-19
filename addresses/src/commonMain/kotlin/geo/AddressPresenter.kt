@@ -4,7 +4,6 @@
 package geo
 
 import kollections.List
-import kollections.toIList
 import kotlinx.serialization.Serializable
 import kotlinx.JsExport
 
