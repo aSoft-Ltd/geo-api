@@ -10,6 +10,8 @@ plugins {
 kotlin {
     jvm { library() }
     js(IR) { library() }
+    if (Targeting.WASM) wasmJs { library() }
+//    if (Targeting.WASM) wasmWasi { library() }
 
     sourceSets {
         val commonMain by getting {
