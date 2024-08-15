@@ -3,10 +3,7 @@
 
 package geo
 
-import kollections.List
-import kollections.map
-import kollections.plus
-import kollections.reversed
+import kollections.*
 import kotlinx.JsExport
 import kotlinx.serialization.Serializable
 
@@ -15,5 +12,5 @@ data class AddressDto(
     val country: Country,
     val entries: List<Entry>
 ) {
-    fun toLines() = (entries.reversed().map { it.value ?: "" } + country.label)
+    fun toLines() = (entries.toKList().reversed().map { it.value ?: "" } + country.label)
 }
